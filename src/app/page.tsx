@@ -6,13 +6,16 @@ import AccordionComp from "./accordion";
 
 export default function Home() {
   return (
-    <div>
-      <h1 className="text-center text-3xl "> Shadcn ui</h1>
-      <div className=" p-20 pt-20 justify-center flex-col">
-        <AccordionComp />
+
+    <main className="bg-green-400">
+    <div className="text-center p-5  text-white">
+      <h1 className=" text-2xl "> Shadcn ui</h1>
+      <div>
+        <AccordionComp/>
       </div>
-
-
     </div>
+    </main>
+
+
   );
 }
