@@ -30,6 +30,18 @@ const AccordionComp = () => {
                   Yeah what ever...
                 </AccordionContent>
             </AccordionItem>
+            <AccordionItem value="item-4">
+                <AccordionTrigger>Whats your motive?</AccordionTrigger>
+                <AccordionContent>
+                  To be at peace
+                </AccordionContent>
+            </AccordionItem>
+            <AccordionItem value="item-5">
+                <AccordionTrigger>I guess thats it for today cya.</AccordionTrigger>
+                <AccordionContent>
+                  hasta la vista 
+                </AccordionContent>
+            </AccordionItem>
 
 
         </Accordion>
