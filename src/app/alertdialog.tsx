@@ -16,10 +16,10 @@ import { Button } from "@/components/ui/button"
   
   const AlertDialogDemo = () => {
     return (
-      <div>
-        <AlertDialog>
+      <div className="p-5 flex-col pt-45">
+        <AlertDialog >
   <AlertDialogTrigger>
-    <Button varient="outline">Open</Button>
+    <Button>Open</Button>
   </AlertDialogTrigger>
   <AlertDialogContent>
     <AlertDialogHeader>
