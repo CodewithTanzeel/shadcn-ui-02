@@ -14,7 +14,7 @@ export default function Home() {
       
         <AccordionComp />
         {/* Rendering a component same by help of nesting elements of accordion in a function  */}
-        <AlertDialog/>
+        <AlertDialogDemo/>
       
     </div>
    
