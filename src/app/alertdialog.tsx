@@ -18,11 +18,13 @@ import { Button } from "@/components/ui/button"
     return (
       <div>
         <AlertDialog>
-  <AlertDialogTrigger>Open</AlertDialogTrigger>
+  <AlertDialogTrigger>
+    <Button varient="outline">Open</Button>
+  </AlertDialogTrigger>
   <AlertDialogContent>
     <AlertDialogHeader>
       <AlertDialogTitle>Are you absolutely sure?</AlertDialogTitle>
-      <AlertDialogDescription>
+      <AlertDialogDescription className="text-red-950">
         This action cannot be undone. This will permanently delete your account
         and remove your data from our servers.
       </AlertDialogDescription>
