@@ -38,4 +38,4 @@ import { Button } from "@/components/ui/button"
     )
   }
   
-  export default AlertDialog
+  export default AlertDialogDemo

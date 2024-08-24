@@ -3,7 +3,8 @@
 import { Accordion } from "@radix-ui/react-accordion";
 import Image from "next/image";
 import AccordionComp from "./accordion";
-import { AlertDialog } from "@/components/ui/alert-dialog";
+import AlertDialogDemo from "./alertdialog";
+
 
 export default function Home() {
   return (
