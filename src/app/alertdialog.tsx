@@ -24,7 +24,7 @@ import InputDemo from "./input"
         <AlertDialog >
   <AlertDialogTrigger>
   <Button className="bg-amber-800">More..</Button>
-    {/* /Here we are using the button component in this case we are nesting it in the component itself */}
+    {/* Here we are using the button component in this case we are nesting it in the component itself */}
   </AlertDialogTrigger>
   <AlertDialogContent>
     <AlertDialogHeader>
