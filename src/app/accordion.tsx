@@ -42,6 +42,12 @@ const AccordionComp = () => {
                   hasta la vista 
                 </AccordionContent>
             </AccordionItem>
+            <AccordionItem value="item-6">
+                <AccordionTrigger>waiiiit.</AccordionTrigger>
+                <AccordionContent>
+                  what?
+                </AccordionContent>
+            </AccordionItem>
 
 
         </Accordion>
