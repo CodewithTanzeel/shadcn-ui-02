@@ -54,6 +54,12 @@ const AccordionComp = () => {
                   ughhh dont bother me .......
                 </AccordionContent>
             </AccordionItem>
+            <AccordionItem value="item-8">
+                <AccordionTrigger>Cya .</AccordionTrigger>
+                <AccordionContent>
+                  bye
+                </AccordionContent>
+            </AccordionItem>
 
 
         </Accordion>
