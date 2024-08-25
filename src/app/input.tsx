@@ -5,7 +5,8 @@ import { Input } from "@/components/ui/input"
 const InputDemo = () => {
     return (
         <div>
-            <Input />//Rendering input component in the function
+            <Input />
+            {/* //Rendering input component in the function */}
         </div>
     )
 }
