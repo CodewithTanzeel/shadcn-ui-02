@@ -10,13 +10,7 @@ const AccordionComp = () => {
     return (
         <Accordion type="single" collapsible>
 
-            <AccordionItem value="item-1">
-                <AccordionTrigger>You should sleep?</AccordionTrigger>
-                <AccordionContent>
-                    why should I.
-                </AccordionContent>
-            </AccordionItem>
-
+            
             <AccordionItem value="item-2">
                 <AccordionTrigger>It will kill you slowly?</AccordionTrigger>
                 <AccordionContent>
